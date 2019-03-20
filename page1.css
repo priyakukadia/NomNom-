@@ -17,6 +17,9 @@
   max-height: 5%;
 }
 
+#toastimage {width: 16px;
+height: 16px}
+
 /* Style all font awesome icons */
 .fa {
   padding: 40px;
