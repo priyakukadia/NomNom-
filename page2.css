@@ -1,0 +1,21 @@
+.res{
+  max-width: 100%;
+  height: auto;
+}
+.jumbotron{
+  margin-top: 20px;
+  background-image: url(https://d2jz4nqvi4omcr.cloudfront.net/Blogs/restauranttrendscover.jpg);
+  background-size:cover;
+  background-position: center;
+  filter: blur(0px);
+  text-shadow: 0px 0px 6px black;
+  color: white;
+}
+
+.rounded mr-2{
+  max-width: 5%;
+  max-height: 5%;
+}
+
+#toastimage {width: 16px;
+height: 16px}
