@@ -4,12 +4,11 @@
   <head>
     <title>Cafes</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link
-      rel="stylesheet" href= "page3.css"
-    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href= "page3.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -32,7 +31,7 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 Places
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -44,11 +43,13 @@
           </ul>
         </div>
       </nav>
+
       <div class="jumbotron">
       <p class="display-1 text-center mb-0 pb-0"><strong>Cafes</strong></p>
       </div>
+
       <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 10px;">
-        <div class="toast" data-autohide="false" style="position: absolute; top: 0; right: 0;">
+        <div class="toast" data-autohide="false" style="width: 15%; position: absolute; top: 0; right: 0;">
           <div class="toast-header">
             <img src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/star-struck.png" id="toastimage" class="rounded mr-2" alt="...">
             <strong class="mr-auto">Quick tip</strong>
@@ -58,10 +59,11 @@
             </button>
           </div>
           <div class="toast-body">
-            Click on the images to go to the Bars' website!
+            Click on the images to go to the Cafes' website!
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm">
           <a href = "http://www.ezraandgil.com/Home.html" target="_blank">
@@ -72,15 +74,19 @@
         <div class="col-sm">
           <h1 class="display-3">Ezra & Gil</h1>
           <p class="lead">
-          Contemporary urban venue for coffee drinks and a menu of imaginative light meals.
+            Contemporary urban venue for coffee drinks and a menu of imaginative light meals.
+            Ezra meaning ‘Helper’ & Gil meaning ‘Happiness’ is an evolutionary concept in urban coffee and cafe culture.
+
           </p>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm">
           <h1 class="display-3">Fig & Sparrow</h1>
           <p class="lead">
-          Independent design store and coffee house serving speciality coffee. Freshly, made to order, sandwiches and salads as well as a hearty fresh soup made by local chefs.
+            Independent design store and coffee house serving speciality coffee.
+            Freshly, made to order, sandwiches and salads as well as a hearty fresh soup made by local chefs.
           </p>
         </div>
 
@@ -101,26 +107,28 @@
         <div class="col-sm">
           <h1 class="display-3">Takk Coffee</h1>
           <p class="lead">
-TAKK is an independent coffee company with three outlets based in Manchester. Finca Miravalle from El Salvador is the single origin house coffee.        </p>
+            TAKK is an independent coffee company with three outlets based in Manchester. Finca Miravalle from El Salvador is the single origin house coffee.        </p>
         </div>
       </div>
     </div>
-  <br>
-
-  <!--Google map-->
-  <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-    <!--Google map-->
+    <br>
     <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-  <iframe src="https://www.google.com/maps/d/embed?mid=14bEFpcavsYnuaWU0vp6Ri40G-7hOCTxq&hl=en" width="1250" height="450"></iframe>
+      <iframe src="https://www.google.com/maps/d/embed?mid=14bEFpcavsYnuaWU0vp6Ri40G-7hOCTxq&hl=en" width="1250" height="450"></iframe>
     </div>
 
-    <!--Google Maps-->
-  </div>
+    <div class="footer">
+    	    <ul class="social-icons icon-circle list-inline">
+    	      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+    	      <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+    	      <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+    	  	</ul>
+    </div>
 
-  <!--Google Maps-->
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
 
   </body>
 </html>
