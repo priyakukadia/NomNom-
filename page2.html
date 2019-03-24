@@ -56,7 +56,7 @@
       </button>
     </div>
     <div class="toast-body">
-      Click on the images to go to the Bars' website!
+      Click on the images to go to the Restaurants' website!
     </div>
   </div>
 </div>
@@ -64,7 +64,7 @@
 <div class="row">
   <div class="col-sm">
     <a href = "http://tattu.co.uk/manchester/" target="_blank">
-    <img src="tattu.jpg" class="res" />
+    <img src="https://pbs.twimg.com/media/DyjnY4tX4AATWGf.jpg" class="res"/>
     </a>
   </div>
 
@@ -90,7 +90,7 @@
 
   <div class="col-sm">
     <a href = "https://www.rudyspizza.co.uk/" target="_blank">
-    <img src="https://wp3-fatsomasites.imgix.net/uploads/sites/550/2018/09/rudys-how-to-make-pizza.png?auto=format%2Cenhance%2Ccompress" class="res" />
+    <img src="https://wp3-fatsomasites.imgix.net/uploads/sites/550/2018/01/rudys-blog-1.png?auto=format%2Cenhance%2Ccompress" class="res" />
     </a>
   </div>
 </div>
@@ -98,7 +98,7 @@
 <div class="row">
   <div class="col-sm">
     <a href = "https://www.platzki.com/" target="_blank">
-    <img src="https://static1.squarespace.com/static/5b23c5bfa9e0284acade6f8c/5b23de112b6a285d942320fc/5c59f99ffa0d60468e884c11/1549722203377/1Y1A2897.jpg?format=2500w" class="res" />
+    <img src="https://www.northernsoul.me.uk/wp/wp-content/uploads/2018/03/Unknown.jpeg" class="res" />
     </a>
   </div>
 
@@ -118,10 +118,6 @@ Cocktails and Carbs! Thats the motto of The Laundrette! <br> <br> You will not f
 <table>
 <tr>
   <th style= "padding:10px"
-  <!--Google map-->
-  <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100px">
-<iframe src="https://www.google.com/maps/d/embed?mid=1oPdZL2DCZFcj8otEjRoJi24KLqOWlou3&hl=en" width="1240" height="400"></iframe>
-  </div>
 
 <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 10px;">
   <div class="toast" data-autohide="false" style="position: absolute; top: 0; right: 0;">
@@ -150,16 +146,38 @@ Cocktails and Carbs! Thats the motto of The Laundrette! <br> <br> You will not f
       rel="stylesheet" href="page2.css"
     />
   </head>
-<i class="fa fa-lg fa-instagram"></i>
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <table>
+    <tr>
+      <th style= "padding:10px"
       <!--Google map-->
-      <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1bVhKrYVq6rKMx4lM3T1E4QG3-dzTVjgh" width="1100" height="480"></iframe>
+      <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 100px">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1bVhKrYVq6rKMx4lM3T1E4QG3-dzTVjgh" width="1240" height="400"></iframe>
       </div>
 
+      <!--Google Maps-->
+    </th>
+    </tr>
+  </table>
       <!--Google Maps-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <div class="footer">
+    	    <ul class="social-icons icon-circle list-inline">
+    	      <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+    	      <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+    	      <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+    	  	</ul>
+    </div>
+
+    <script>
+    $(document).ready(function(){
+      $('.toast').toast('show');
+    });
+    </script>
+
   </body>
 </html>
