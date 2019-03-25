@@ -1,3 +1,9 @@
+.sticky {
+  position: sticky;
+  top:10px;
+  z-index: 100;
+}
+
 .carouselProperties, .carouselProperties img{
   height: 450px !important;
   width: 100% !important;
@@ -48,3 +54,40 @@ h2, h3{
   font-size: 16px;
 
 }
+
+.fa-facebook-square:hover {
+        color: #3b5998;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
+.fa-instagram:hover {
+  color: #E32E80;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.fa-twitter-square:hover {
+  color: #52A8E6;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+
+
+.fa-facebook-square{
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
