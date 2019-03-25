@@ -20,7 +20,53 @@
 #toastimage {width: 16px;
 height: 16px}
 
+.fa-facebook-square:hover {
+        color: #3b5998;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
+.fa-instagram:hover {
+  color: #E32E80;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.fa-twitter-square:hover {
+  color: #52A8E6;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+
+
+.fa-facebook-square{
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+    }
+
 .image {
+  opacity: 1;
+  display: block;
+  width: 75%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.lastimage {
   opacity: 1;
   display: block;
   width: 100%;
@@ -31,7 +77,7 @@ height: 16px}
 
 .middle {
   transition: .5s ease;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -40,12 +86,16 @@ height: 16px}
   text-align: center;
 }
 
-.container:hover .image {
+.image:hover {
   opacity: 0.3;
 }
 
-.container:hover .middle {
-  opacity: 1;
+.lastimage:hover {
+  opacity: 0.3;
+}
+
+.middle:hover {
+  opacity: 0.3;
 }
 
 .footer {
